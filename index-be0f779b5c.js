@@ -1,0 +1,1 @@
+window.screenOrientation="portrait",loadLib("libs/laya-e4bbfbb7a0.core.js"),loadLib("libs/laya-de8bb96876.ui.js"),loadLib("libs/laya-10d122ef07.d3.js"),loadLib("libs/laya-06f7b672c6.physics3D.js"),loadLib("js/bundle-3c5f549957.js");
