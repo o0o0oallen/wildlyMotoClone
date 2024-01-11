@@ -8512,7 +8512,7 @@
 			return !0
 		}
 		showVideoAd(e, t, i, n, a) {
-			console.error("show reward here")
+			console.info("show reward here")
 			this.mCloseVideoCaller = t, this.mCloseVideoFunc = i, this.mShowVideoCaller = n, this.mShowVideoFunc = a, Laya.SoundManager.musicMuted = !0, Laya.SoundManager.soundMuted = !0, St.I.setSoundVolume(0), St.I.stopBGM(), MiniGameAds.isRewardvideoReady() ? MiniGameAds.showRewardedVideo().then(() => {
 				console.info("新接口播放激励广告: 成功"), this.onCloseVideo({
 					isEnded: !0
