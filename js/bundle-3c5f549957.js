@@ -8439,6 +8439,7 @@
 			return xe.log("getVideoAd key:", t), !this.mAdVideoMap[e.toString()] && t && "" != t && (xe.log("createVideoAd adkey:" + t), Ii.addRewardedVideo(t, 1), this.mAdVideoMap[e.toString()] = t), this.mAdVideoMap[e.toString()]
 		}
 		showVideoAd(e, t, i, n, a) {
+			xe.log("show reward here")
 			if (this.mCloseVideoCaller = t, this.mCloseVideoFunc = i, this.mShowVideoCaller = n, this.mShowVideoFunc = a, Ii.isRewardedVideoReady()) {
 				let e = this;
 				Ii.showRewardedVideo().then(() => {
